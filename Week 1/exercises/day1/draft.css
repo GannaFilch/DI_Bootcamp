@@ -1,49 +1,17 @@
-* {
-  font-family: 'Courier New', Courier;
-}
-.cardUP, .card {
-  display: inline-block;
-  text-align: center;
-}
-.card1, .card2, .card3 {
-  width: 27%;
-}
-.row, header {
-  text-align: center;
-}
-header {
-  padding-left: 50px;
-  padding-right: 50px;
-  background-image: url("https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-repeat: no-repeat;
-  background-position: cover;
-  min-height: 300px; 
-  position: relative;
-  margin-bottom: 2em;
-}
-#header {
-  position: absolute;
-  top: 15%;
-  width: 85%;
-  justify-content: center;
-  padding: 15px;
-  color: white;
-}
-i {
-  font-size: 40px;
-}
-nav {
-  background-color:  lightgray;
-  position: relative;
-}
-button {
-  position: absolute;
-  top: 1.2em;
-  right: 1em;
-}
-p {
-  margin-left: 1em;
-}
-
-
-
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("https://raw.githubusercontent.com/devtlv/studentsGitHub/master/Images%20cours%20%C3%A0%20h%C3%A9berger%20-%2006.03.2024/Week%201%20-%20Web%20development%20Basics/W1D1/168069577-2f570d08-61d3-49d8-b7dd-c4b9192aaf68.jpg");
+  
+    /* Full height */
+    height: 50%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
